@@ -1,5 +1,7 @@
-# South-Georgia
+- - - -
+# South Georgia Oceanographic Model
 NEMO regional configuration for South Georgia
+- - - -
 
 ## Introduction
 A regional oceanographic model for the South Georgia region has been developed to undertake analyses on the spatial and temporal variability in the regional oceanography, the key drivers of this variability, and the impact on the distribution of exploited species. The model development was funded by the UK Foreign, Commonwealth and Development Office. The underlying model system is NEMO (Nucleus for European Modelling of the Ocean; <https://www.nemo-ocean.eu/>), which has been widely adopted by the European scientific community for a range of modelling studies from regional to global scales. NEMO is a highly versatile modelling system, and includes a range of options for model parameterisation that enables good representation of regions characterised by complex bathymetry and precipitous shelf-edges.
