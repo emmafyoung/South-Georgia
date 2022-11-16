@@ -50,3 +50,6 @@ svn co http://forge.ipsl.jussieu.fr/ioserver/svn/XIOS/branchs/xios-2.0
   * ./makenemo -n SG -m XC_ARCHER_INTEL
 * Run the model:
   * qsub run.SG.pbs.1990
+
+## Example model output
+Figures showing example output for the model configuration and forcing data detailed here are shown in directory OUTPUT. The figures show 5-day mean surface temperatures and horizontal near-surface velocities (shading is current speed, velocity vectors are plotted every fifth grid cell) for 26-30 January 1990.
