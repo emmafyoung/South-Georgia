@@ -95,6 +95,7 @@
    ln_dm2dc    = .true.    !  daily mean to diurnal cycle on short wave
    ln_ssr      = .false.   !  Sea Surface Restoring on T and/or S       (T => fill namsbc_ssr)
    nn_fwb      = 0         !  FreshWater Budget: =0 unchecked
+   ln_rnf      = .true.    |  runoffs                                   (T   => fill namsbc_rnf)
 /
 !-----------------------------------------------------------------------
 &namsbc_ana    !   analytical surface boundary condition
