@@ -45,7 +45,7 @@ svn co http://forge.ipsl.jussieu.fr/ioserver/svn/XIOS/branchs/xios-2.0
 * Open boundary and terrestrial freshwater forcing are available on the BAS external ftp site (ftp://ftp.bas.ac.uk) in directory eyoung/SG/DATA. Your login should be username=anonymous with your full email address as password. Put downloaded forcing files in directory SG/EXP00/DATA.
 * Files containing example initial conditions (SGnemo_init_T_030190_06.nc and SGnemo_init_S_030190_06.nc) are also available on the BAS external ftp site (see above) in directory eyoung/SG/INIT. These should be placed in the SG/EXP00 directory.
 * Navigate to NEMOGCM/CONFIG/SG/EXP00. Create a runscript or adapt the example files provided (runnemo.sh.1990 and run.SG.pbs.1990 in directory EXP00).
-* Navigate to NEMOGCM/CONFIG, clean the configuration, and recompile as follows:
+* Navigate to NEMOGCM/CONFIG, clean the configuration and recompile as follows:
   * ./makenemo -n SG clean
   * ./makenemo -n SG -m XC_ARCHER_INTEL
 * Run the model:
